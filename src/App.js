@@ -1,8 +1,15 @@
 import React from 'react';
+import Navbar from './Component/Navbar';
+import Amazon from './Component/Amazon';
+
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Navbar/>
+      <Amazon/>
+    
+    </div>
   );
 }
 
